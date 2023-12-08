@@ -1,3 +1,77 @@
 textarea {
     min-height: 400px;
+    margin-left: 10px;
+    margin-right: 100px;
+    max-width: 600px;
+    margin-bottom: 10px;
+    
 }
+
+body {
+    background-color: rgb(184, 177, 177);
+}
+
+.borderContainer {
+
+    
+    text-align: center;
+    
+
+
+}
+
+.flexContainer {
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: solid black 1px;
+    
+
+}
+
+.flexContainer p {
+
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+    
+    
+    
+    
+    
+    
+    /* Add other flex properties for <p> elements if needed */
+  }
+
+  .flexContainer p:last-child {
+    margin-left: auto;
+    padding-right: 10px;
+  }
+
+  .flexContainer p:not(:first-child):not(:last-child){
+
+
+    text-align: center;
+  }
+
+  #emails-content p{
+    padding-left: 10px;
+  }
+
+  #emails-content p:last-child{
+    padding-left: 10px;
+    border-top: solid black 1px;
+    padding-top: 10px;
+  }
+
+  .form-group{
+
+    width: 50%;
+    height: auto;
+    margin-left: 10px;
+
+  }
+
+  
